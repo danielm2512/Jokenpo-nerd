@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Pedra_papel_tesoura_lagarto_Spock</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pedra-papel-tesoura-lagarto-Spock.Core\Pedra-papel-tesoura-lagarto-Spock.Core.csproj" />
+  </ItemGroup>
+
+</Project>
